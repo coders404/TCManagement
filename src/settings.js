@@ -1,10 +1,11 @@
 module.exports = {
 
-  title: 'Vue Admin Template',
+  title: 'HR-人力资源管理后台',
 
   /**
    * @type {boolean} true | false
    * @description Whether fix the header
+      default: false
    */
   fixedHeader: false,
 
@@ -12,5 +13,5 @@ module.exports = {
    * @type {boolean} true | false
    * @description Whether show the logo in sidebar
    */
-  sidebarLogo: false
+  sidebarLogo: true //! 显示logo
 }
